@@ -53,16 +53,41 @@ playButton.addEventListener('click', changeBored)
 
 /*----- functions -----*/
 
-// create functions that will change/interact DOM
+// create functions that will change Stat values
 
 function changeHunger() {
-    hungerInput.value= '-=1'
+    hungerInput.value-=1
 }
 
 function changeSleep() {
-    sleepInput.value= '-=1'
+    sleepInput.value-=1
 }
 
 function changeBored() {
-    boredInput.value= '-=1'
+    boredInput.value-=1
+}
+
+// create setInterval functions
+
+setInterval(function () {
+    hungerInput.value++
+}, 2000);
+
+setInterval(function () {
+    ageInput.value++
+}, 7000);
+
+setInterval(function () {
+    boredInput.value++
+}, 4000);
+
+setInterval(function () {
+    sleepInput.value++
+}, 3000);
+
+
+// create a render function
+
+function render() {
+
 }
