@@ -39,11 +39,11 @@ let sleepInput = document.querySelector('#snooze')
 
 // Add event listeners to buttons
 
-// foodButton.addEventListener('click', )
+foodButton.addEventListener('click', changeHunger)
 
-// sleepButton.addEventListener('click', )
+sleepButton.addEventListener('click', changeSleep)
 
-// playButton.addEventListener('click', )
+playButton.addEventListener('click', changeBored)
 
 
 
@@ -54,3 +54,15 @@ let sleepInput = document.querySelector('#snooze')
 /*----- functions -----*/
 
 // create functions that will change/interact DOM
+
+function changeHunger() {
+    hungerInput.value= '-=1'
+}
+
+function changeSleep() {
+    sleepInput.value= '-=1'
+}
+
+function changeBored() {
+    boredInput.value= '-=1'
+}
