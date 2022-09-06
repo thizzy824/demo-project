@@ -39,6 +39,11 @@ let sleepInput = document.querySelector('#snooze')
 
 // Add event listeners to buttons
 
+// foodButton.addEventListener('click', )
+
+// sleepButton.addEventListener('click', )
+
+// playButton.addEventListener('click', )
 
 
 
