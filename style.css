@@ -1,1 +1,20 @@
+body {
+    background: blue;
+}
 
+header {
+    margin: auto;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
